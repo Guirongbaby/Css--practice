@@ -1,0 +1,319 @@
+@charset 'UTF-8';
+.container {
+    width: 1195px;
+    margin: 0 auto;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.top {
+    margin: 30px 0;
+}
+
+.top .logo-wrap {
+    width: 300px;
+    height: 60px;
+    float: left;
+}
+
+.top .logo-wrap a {
+    display: block;
+    background: url('../css代码/HARBIN\ INSTITUTE\ OF\ TECHNOLOGY\ PRESS.png') no-repeat;
+    width: 370px;
+    height: 60px;
+    text-indent: -9999px;
+}
+
+.top .site-nav {
+    float: right;
+}
+
+.top .site-nav .nav-list .nav-list-item .msg {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url('../css代码/msg.png') no-repeat;
+    color: #fff;
+    padding-left: 23px;
+}
+
+.top .nav-list-item {
+    float: left;
+    padding: 0 10px;
+}
+
+.top .site-nav .nav-list-item .user {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.top .site-nav .nav-list-item .username {
+    text-decoration: none;
+    color: #2c2b2b;
+    display: inline-block;
+}
+
+.top .site-nav .nav-list .user-hd .username::after {
+    content: '';
+    display: inline-block;
+    border: 6px solid #e7594d;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.top .site-nav .entry-wrap .entry::after {
+    content: '';
+    display: inline-block;
+    border: 6px solid #e7594d;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.top .site-nav .entry-wrap .entry {
+    display: inline-block;
+    text-decoration: none;
+    color: #2c2b2b;
+    margin-top: 26px;
+}
+
+.top .site-nav .entry-wrap {
+    position: relative;
+}
+
+.top .site-nav .entry-bd {
+    position: absolute;
+    display: none;
+}
+
+.top .site-nav .entry-bd .entry-item a {
+    text-decoration: none;
+    color: #2c2b2b;
+}
+
+.top .site-nav .entry-wrap:hover .entry-bd {
+    display: block;
+}
+
+.search {
+    position: relative;
+    margin-left: 330px;
+    margin-right: 390px;
+}
+
+.search input {
+    text-indent: 2em;
+    width: 470px;
+    height: 28px;
+    margin-top: 5px;
+}
+
+.search a {
+    display: inline-block;
+    background: url(../css代码/_Group_.png) no-repeat;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+}
+
+.main-nav {
+    position: relative;
+    margin: 20px 0;
+}
+
+.main-nav::before {
+    content: '';
+    display: block;
+    background-color: #3598db;
+    width: 60%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.main-nav::after {
+    content: '';
+    display: block;
+    background-color: #e7594d;
+    width: 40%;
+    height: 60px;
+    position: absolute;
+    left: 60%;
+    top: 0;
+    z-index: -1;
+}
+
+.main-nav .nav-wrap .nav-item {
+    float: left;
+    padding: 20px 25px;
+}
+
+.main-nav .nav-wrap .nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.main-nav .nav-wrap .nav-item .nav-link {
+    border-right: 1px solid #fff;
+    padding-right: 17px;
+}
+
+.main-nav .nav-boss {
+    float: left;
+}
+
+.main-nav .nav-subboss {
+    float: right;
+}
+
+.main-nav .nav-subboss .vip {
+    border-right: 1px solid #fff;
+    padding-right: 17px;
+}
+
+/* #endregion .main-nav */
+
+/* #region bread */
+
+.bread .bread-list {
+    padding-left: 20px;
+}
+
+.bread .bread-list .bread-item {
+    display: inline-block;
+    color: #3598db;
+}
+
+.bread .bread-list .bread-item a {
+    font-size: 14px;
+    color: #3598db;
+    text-decoration: none;
+}
+
+.bread .bread-list .bread-item span {
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+/* height: 21px; */
+
+/* #endregion bread */
+
+.sub-nav .sub-main {
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    padding: 25px;
+}
+
+.sub-nav .sub-item {
+    float: left;
+}
+
+.sub-nav .sub-item img {
+    width: 300px;
+    height: 250px;
+}
+
+.sub-nav .sub-item-1 {
+    color: #1a1a1a;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.sub-nav .sub-item-2 {
+    font-size: 13px;
+    color: #666666;
+    padding: 5px;
+}
+
+.sub-nav .sub-item-3 {
+    font-size: 21px;
+    color: #e7594d;
+    padding: 5px;
+}
+
+.sub-nav .sub-item-n {
+    float: left;
+    padding-left: 30px;
+    width: 800px;
+}
+
+.sub-nav .sub-item-n p {
+    color: #8c8c8c;
+    font-size: 13px;
+}
+
+.sub-nav .sub-item-n .sub-item-4 {
+    color: #141414;
+    font-size: 13px;
+}
+
+.sub-nav .sub-item-n span {
+    color: #ee200d;
+}
+
+.sub-nav .sub-main .sub-item-n2 {
+    background-color: #2db0f9;
+    width: 190px;
+    height: 50px;
+    float: left;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+.sub-nav .sub-main .sub-item-n3 {
+    background-color: #1bbc9c;
+    width: 190px;
+    height: 50px;
+    float: left;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+
+.sub-nav .sub-main .sub-item-n3 a,
+.sub-nav .sub-main .sub-item-n2 a {
+    display: inline-block;
+    color: #fff;
+    width: 190px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.third-main .main {
+    border: 1px solid #ccc;
+    float: left;
+    width: 900px;
+}
+
+.third-main .main-1 {
+    padding: 10px 30px;
+}
+
+.third-main .main p {
+    font-size: 13px;
+    color: #8c8c8c;
+    padding: 10px 0;
+    text-indent: 2em;
+}
+
+.third-main h3 {
+    color: #666666;
+    border-left: 2px solid #2db0f9;
+}
